@@ -1,0 +1,1 @@
+This folder just contains sample epubs that I created manually to see what was required in the process

@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+  max-width: 100%;
+  margin-left: 5px;
+}
+
+body {
+  margin: 0; 
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+/* Height / width / positioning can be customized for your use case.
+   For demo purposes, we make the user list 175px and firepad fill the rest of the page. */
+#userlist {
+  position: absolute; left: 0; top: 0; bottom: 0; height: 100%;
+  width: 175px;
+}
+#firepad {
+  position: absolute; left: 175px; top: 0; bottom: 0; right: 0; height: 100%;
+}
+
+.firepad-toolbar { 
+	height: auto;
+	padding-bottom: 6px;
+}
+
+.hidden {
+	display: none;
+}
+
+
+#main-navbar {
+  display: block;
+  /*height: auto;*/
+}
+
+#editor-pane {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #c9c9c9;
+}
+
+#firepad {
+  display: inline;
+  position: relative;
+  float: left;
+  left: 40px;
+  width: 80%;
+}
+
+#userlist {
+  display: inline;
+  position: relative;
+  float: left;
+}
+
+

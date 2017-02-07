@@ -1,0 +1,10 @@
+eebooks-proj.sublime-project
+eebooks-proj.sublime-workspace
+bin/
+misc/
+node_modules/
+uploads/
+creds/
+antiword/
+npm-debug.log
+PDFoutput.pdf

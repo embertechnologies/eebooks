@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>My test epub eBook</dc:title>
+		<dc:language>en-US</dc:language>
+        <dc:rights>Public Domain</dc:rights>
+        <dc:creator opf:role="aut">Hima</dc:creator>
+        <dc:publisher>eeBooks</dc:publisher>
+        <dc:identifier id="BookID">urn:uiud:putISBNheremaybewitheebooks</dc:identifier>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="kant-pun-image" href="images/kantpun.jpg" media-type="image/jpg"/>
+        <item id="style" href="styles/style.css" media-type="text/css"/>
+		<item id="pagetemplate" href="page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+        <item id="chapter1" href="text/first.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter2" href="text/second.xhtml" media-type="application/xhtml+xml"/>
+        <item id="title_page" href="text/title_page.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="title_page"/>
+        <itemref idref="chapter1"/>
+        <itemref idref="chapter2"/>
+    </spine>
+</package>
